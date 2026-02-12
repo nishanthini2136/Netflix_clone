@@ -1,0 +1,308 @@
+.profile-page {
+  min-height: 100vh;
+  background: #000;
+  color: white;
+  padding: 20px;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.back-btn {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.profile-header h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.profile-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.profile-info-section {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 40px;
+}
+
+.profile-avatar {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.avatar-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.profile-avatar-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #e50914 0%, #b20710 100%);
+  color: white;
+  font-weight: bold;
+  font-size: 48px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: 4px solid #fff;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.avatar-upload {
+  display: flex;
+  justify-content: center;
+}
+
+.upload-btn {
+  background: #e50914;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.upload-btn:hover {
+  background: #f40612;
+}
+
+.profile-details {
+  flex: 1;
+}
+
+.profile-info h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.email {
+  color: #ccc;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.join-date {
+  color: #999;
+  margin-bottom: 20px;
+}
+
+.edit-btn, .save-btn, .cancel-btn {
+  background: #e50914;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+.edit-btn:hover, .save-btn:hover {
+  background: #f40612;
+}
+
+.cancel-btn {
+  background: #666;
+  margin-left: 10px;
+}
+
+.cancel-btn:hover {
+  background: #777;
+}
+
+.edit-form input {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  background: #333;
+  color: white;
+  font-size: 1rem;
+}
+
+.email-display {
+  margin-bottom: 15px;
+}
+
+.email-display label {
+  display: block;
+  color: #ccc;
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+
+.email-display span {
+  color: #999;
+  font-size: 1rem;
+  padding: 8px 0;
+  display: block;
+}
+
+.edit-form input:focus {
+  outline: none;
+  border-color: #e50914;
+}
+
+.edit-buttons {
+  margin-top: 20px;
+}
+
+.viewing-history-section {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.section-header h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.clear-history-btn {
+  background: transparent;
+  color: #e50914;
+  border: 1px solid #e50914;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.clear-history-btn:hover {
+  background: #e50914;
+  color: white;
+}
+
+.empty-history {
+  text-align: center;
+  padding: 60px 20px;
+  color: #999;
+}
+
+.empty-history p {
+  font-size: 1.2rem;
+}
+
+.history-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.history-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  padding: 20px;
+  transition: transform 0.3s;
+}
+
+.history-item:hover {
+  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.history-item img {
+  width: 120px;
+  height: 68px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.history-info {
+  flex: 1;
+}
+
+.history-info h4 {
+  font-size: 1.3rem;
+  margin-bottom: 8px;
+}
+
+.watch-date {
+  color: #ccc;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.overview {
+  color: #999;
+  line-height: 1.4;
+}
+
+.watch-again-btn {
+  background: #e50914;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  white-space: nowrap;
+  transition: background 0.3s;
+}
+
+.watch-again-btn:hover {
+  background: #f40612;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .profile-page {
+    padding: 15px;
+  }
+  
+  .profile-header h1 {
+    font-size: 2rem;
+  }
+  
+  .profile-avatar {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+  
+  .history-item {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .history-item img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+}
